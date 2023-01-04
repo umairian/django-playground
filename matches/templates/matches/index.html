@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>Matches - Django</title>
+    </head>
+    <body>
+        <h1>Welcome to the Django Playground!</h1>
+        <ul>
+        {% for match in matches %}
+            <li>{{ match }}</li> <!-- Interpolation -->
+        {% endfor %}
+        </ul>
+    </body>
+</html>
